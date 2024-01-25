@@ -1,4 +1,4 @@
-FROM golang:1.20.7-bullseye
+FROM golang:1.22rc2-bullseye
 
 RUN apt-get update && apt-get install -y \
     build-essential \
